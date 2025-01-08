@@ -1,0 +1,27 @@
+.logo {
+    width: 2.8125rem;
+    height: 2.8125rem;
+}
+
+.Pesquisa{
+    width: 39.125rem;
+    height: 2.4375rem;
+    border-radius: 0.625rem;
+    border: 3px solid #C1C1C1;
+    background: rgba(217, 217, 217, 0.00);
+}
+
+.BtnPesquisa{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+
+.IconsNav {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: invert(71%) sepia(50%) saturate(863%) hue-rotate(326deg) brightness(96%) contrast(97%);
+}
+
+.nav-link {
+    color: #F29544 ;
+}
