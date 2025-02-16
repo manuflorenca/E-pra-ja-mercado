@@ -1,20 +1,55 @@
+.categorias {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os itens */
+    align-items: center; /* Alinha verticalmente */
+    padding: 1.5em; 
+    width: 60%;
+  }
+
+  nav{
+    display: flex;
+    width: 100%; /* Garante que a nav ocupe toda a largura disponível */
+    justify-content: space-between; /* Espaça os itens entre si */
+    padding: 0 2em; /* Adiciona algum padding para afastar da borda */
+  }
+
 .logo {
     width: 2.8125rem;
     height: 2.8125rem;
+    margin-left: 2em ;
+    margin-right: 2em;
 }
 
-.Pesquisa{
-    width: 39.125rem;
+form {
+    display: flex;
+    width: 50%;
+  }
+  
+  .input-group {
+    display: flex;
+    width: 100%; /* Garante que o grupo ocupe toda a largura do form */
+  }
+  
+  .Pesquisa {
+    width: 100%; /* Deixa o input ocupar todo o espaço disponível */
     height: 2.4375rem;
     border-radius: 0.625rem;
     border: 3px solid #C1C1C1;
     background: rgba(217, 217, 217, 0.00);
-}
-
-.BtnPesquisa{
+    padding-left: 1em;
+  }
+  
+  .BtnPesquisa {
     width: 1.5625rem;
     height: 1.5625rem;
-}
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: right;
+    margin-left: 20em;
+    width: 60%;
+  }
 
 .IconsNav {
     width: 2.5rem;
@@ -24,4 +59,12 @@
 
 .nav-link {
     color: #F29544 ;
+}
+
+/* Parte inferior da nav */
+
+.dropdown{
+    border-radius: 0.3125rem;
+    background: #687343;
+    color: #FAFAFAFA;
 }
