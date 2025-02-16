@@ -1,0 +1,972 @@
+{
+"products": [
+    {
+    "id": 1,
+    "titulo": "Molho de Tomate 340g",
+    "descricao": "Molho de Tomate 340g para preparar suas receitas com mais sabor e praticidade.",
+    "img": "",
+    "nota": 4.5,
+    "preco": 4.80,
+    "desconto": 0.05,
+    "categorias": ["alimentos", "molhos", "tempero"],
+    "marca": "Sabor e Cia",
+    "avaliacoes": [
+        {
+        "nome": "Ricardo Almeida",
+        "nota": 5.0,
+        "comentario": "Molho muito saboroso, dá um toque especial ao prato.",
+        "data": "2024-02-01T10:15:45.618Z"
+        },
+        {
+        "nome": "Fernanda Souza",
+        "nota": 4.0,
+        "comentario": "Bom, mas achei um pouco ácido para o meu gosto.",
+        "data": "2024-02-07T14:30:23.618Z"
+        }
+    ]
+    },
+    {
+    "id": 2,
+    "titulo": "Arroz Integral 5kg",
+    "descricao": "Arroz Integral Tipo 1 de 5kg, ideal para uma alimentação mais saudável.",
+    "img": "",
+    "nota": 4.3,
+    "preco": 18.90,
+    "desconto": 0.1,
+    "categorias": ["alimentos", "grãos"],
+    "marca": "Naturale",
+    "avaliacoes": [
+        {
+        "nome": "João Pereira",
+        "nota": 4.5,
+        "comentario": "Muito bom, excelente para quem quer uma opção mais saudável.",
+        "data": "2024-02-12T17:50:21.618Z"
+        },
+        {
+        "nome": "Márcia Lopes",
+        "nota": 4.0,
+        "comentario": "O arroz é bom, mas demora um pouco mais para cozinhar.",
+        "data": "2024-02-09T14:40:12.618Z"
+        }
+    ]
+    },
+    {
+    "id": 3,
+    "titulo": "Feijão Preto 1kg",
+    "descricao": "Feijão Preto Carioca 1kg, ideal para preparar feijão tropeiro e outros pratos tradicionais.",
+    "img": "",
+    "nota": 4.6,
+    "preco": 7.20,
+    "desconto": 0.0,
+    "categorias": ["alimentos", "grãos"],
+    "marca": "Sabor da Terra",
+    "avaliacoes": [
+        {
+        "nome": "Carlos Souza",
+        "nota": 4.8,
+        "comentario": "Excelente qualidade, feijão muito saboroso.",
+        "data": "2024-02-11T09:25:00.618Z"
+        }
+    ]
+    },
+    {
+    "id": 4,
+    "titulo": "Macarrão Parafuso 500g",
+    "descricao": "Macarrão Parafuso 500g, perfeito para molhos e saladas.",
+    "img": "",
+    "nota": 4.2,
+    "preco": 3.00,
+    "desconto": 0.0,
+    "categorias": ["alimentos", "massas"],
+    "marca": "La Mamma",
+    "avaliacoes": [
+        {
+        "nome": "Ana Costa",
+        "nota": 4.0,
+        "comentario": "Bom macarrão, cozinha bem, mas poderia ter mais sabor.",
+        "data": "2024-02-08T10:00:33.618Z"
+        }
+    ]
+    },
+    {
+    "id": 5,
+    "titulo": "Pão Integral",
+    "descricao": "Pão Integral com 12 fatias, ideal para um café da manhã saudável.",
+    "img": "",
+    "nota": 4.5,
+    "preco": 6.99,
+    "desconto": 0.1,
+    "categorias": ["panificação", "alimentos"],
+    "marca": "Delícias da Casa",
+    "avaliacoes": [
+        {
+        "nome": "Mariana Almeida",
+        "nota": 5.0,
+        "comentario": "O pão é delicioso e muito saudável, perfeito para começar o dia.",
+        "data": "2024-02-10T09:40:15.618Z"
+        },
+        {
+        "nome": "Ricardo Lima",
+        "nota": 4.0,
+        "comentario": "Muito bom, mas um pouco mais caro que os pães comuns.",
+        "data": "2024-02-07T12:30:45.618Z"
+        }
+    ]
+    },
+    {
+    "id": 6,
+    "titulo": "Café Torrado 500g",
+    "descricao": "Café Torrado e Moído de 500g, ideal para quem aprecia um bom café forte.",
+    "img": "",
+    "nota": 4.7,
+    "preco": 11.90,
+    "desconto": 0.0,
+    "categorias": ["bebidas", "alimentos"],
+    "marca": "Café do Sítio",
+    "avaliacoes": [
+        {
+        "nome": "Juliana Costa",
+        "nota": 5.0,
+        "comentario": "Café maravilhoso, sabor intenso e excelente qualidade.",
+        "data": "2024-02-03T14:10:23.618Z"
+        }
+    ]
+    },
+    {
+    "id": 7,
+    "titulo": "Óleo de Soja 900ml",
+    "descricao": "Óleo de Soja Liza, 900ml, ideal para o preparo de frituras e refogados.",
+    "img": "",
+    "nota": 4.1,
+    "preco": 5.40,
+    "desconto": 0.1,
+    "categorias": ["alimentos", "óleos"],
+    "marca": "Liza",
+    "avaliacoes": [
+        {
+        "nome": "Lucas Souza",
+        "nota": 4.5,
+        "comentario": "Ótimo óleo, cumpre o que promete.",
+        "data": "2024-02-10T13:35:45.618Z"
+        }
+    ]
+    },
+    {
+    "id": 8,
+    "titulo": "Açúcar Cristal 1kg",
+    "descricao": "Açúcar Cristal União 1kg, ideal para adoçar suas bebidas e receitas.",
+    "img": "",
+    "nota": 4.3,
+    "preco": 3.50,
+    "desconto": 0.05,
+    "categorias": ["alimentos", "doces"],
+    "marca": "União",
+    "avaliacoes": [
+        {
+        "nome": "Carla Oliveira",
+        "nota": 4.5,
+        "comentario": "Açúcar de excelente qualidade, adoça na medida certa.",
+        "data": "2024-02-05T09:20:12.618Z"
+        }
+    ]
+    },
+    {
+    "id": 9,
+    "titulo": "Sabonete Dove 90g",
+    "descricao": "Sabonete Dove 90g, ideal para peles sensíveis, deixando a pele hidratada e macia.",
+    "img": "",
+    "nota": 4.8,
+    "preco": 3.20,
+    "desconto": 0.0,
+    "categorias": ["higiene", "cosméticos"],
+    "marca": "Dove",
+    "avaliacoes": [
+        {
+        "nome": "Patrícia Silva",
+        "nota": 5.0,
+        "comentario": "A pele fica muito macia, adoro o cheiro suave.",
+        "data": "2024-02-04T12:00:00.618Z"
+        }
+    ]
+    },
+    {
+    "id": 10,
+    "titulo": "Shampoo Pantene 400ml",
+    "descricao": "Shampoo Pantene Hidratante 400ml, com fórmula para cabelos secos e danificados.",
+    "img": "",
+    "nota": 4.4,
+    "preco": 12.90,
+    "desconto": 0.1,
+    "categorias": ["cosméticos", "higiene"],
+    "marca": "Pantene",
+    "avaliacoes": [
+        {
+        "nome": "Eduarda Martins",
+        "nota": 4.5,
+        "comentario": "O cabelo fica muito mais macio e brilhoso!",
+        "data": "2024-02-02T11:30:45.618Z"
+        }
+    ]
+    },
+    {
+    "id": 11,
+    "titulo": "Condicionador Pantene 400ml",
+    "descricao": "Condicionador Pantene Hidratante 400ml, para cabelos sedosos e hidratados.",
+    "img": "",
+    "nota": 4.7,
+    "preco": 13.50,
+    "desconto": 0.1,
+    "categorias": ["cosméticos", "higiene"],
+    "marca": "Pantene",
+    "avaliacoes": [
+        {
+        "nome": "Marcela Lima",
+        "nota": 5.0,
+        "comentario": "Excelente! Meu cabelo ficou mais forte e brilhoso.",
+        "data": "2024-02-08T15:00:32.618Z"
+        }
+    ]
+    },
+    {
+    "id": 12,
+    "titulo": "Detergente Ypê 500ml",
+    "descricao": "Detergente Neutro Ypê 500ml, ideal para lavar louças e utensílios domésticos.",
+    "img": "",
+    "nota": 4.2,
+    "preco": 2.99,
+    "desconto": 0.0,
+    "categorias": ["higiene", "limpeza"],
+    "marca": "Ypê",
+    "avaliacoes": [
+        {
+        "nome": "Tiago Ribeiro",
+        "nota": 4.0,
+        "comentario": "Bom detergente, mas acho que poderia espumar mais.",
+        "data": "2024-02-06T17:30:22.618Z"
+        }
+    ]
+    },
+    {
+        "id": 13,
+        "titulo": "Suco de Laranja 1L",
+        "descricao": "Suco natural de laranja 1L, sem adição de conservantes, 100% natural.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 7.50,
+        "desconto": 0.1,
+        "categorias": ["bebidas", "suco", "alimentos"],
+        "marca": "Sabor Puro",
+        "avaliacoes": [
+          {
+            "nome": "Rafael Gomes",
+            "nota": 5.0,
+            "comentario": "Muito saboroso, gosto de suco natural, sem conservantes!",
+            "data": "2024-02-10T11:20:14.618Z"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "titulo": "Margarina 500g",
+        "descricao": "Margarina cremosa 500g, ideal para substituir a manteiga no preparo de alimentos.",
+        "img": "",
+        "nota": 4.2,
+        "preco": 4.00,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "laticínios"],
+        "marca": "Viva",
+        "avaliacoes": [
+          {
+            "nome": "Roberta Alves",
+            "nota": 4.5,
+            "comentario": "Boa qualidade, mas prefiro uma margarina com menos sal.",
+            "data": "2024-02-11T16:12:33.618Z"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "titulo": "Creme de Leite 200g",
+        "descricao": "Creme de leite UHT 200g, ideal para preparar receitas doces e salgadas.",
+        "img": "",
+        "nota": 4.8,
+        "preco": 2.90,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "laticínios"],
+        "marca": "Laticínio Real",
+        "avaliacoes": [
+          {
+            "nome": "Julia Costa",
+            "nota": 5.0,
+            "comentario": "Perfeito para receitas! A consistência é ótima.",
+            "data": "2024-02-13T08:34:11.618Z"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "titulo": "Cereal Matinal 500g",
+        "descricao": "Cereal matinal com aveia e mel 500g, ideal para um café da manhã saudável.",
+        "img": "",
+        "nota": 4.4,
+        "preco": 6.70,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "cereais"],
+        "marca": "Gran Oats",
+        "avaliacoes": [
+          {
+            "nome": "Mariana Silva",
+            "nota": 4.5,
+            "comentario": "Muito bom, o sabor é ótimo e é super nutritivo.",
+            "data": "2024-02-12T14:00:23.618Z"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "titulo": "Iogurte Grego 150g",
+        "descricao": "Iogurte grego natural 150g, com sabor suave e rico em proteínas.",
+        "img": "",
+        "nota": 4.7,
+        "preco": 3.50,
+        "desconto": 0.05,
+        "categorias": ["alimentos", "laticínios", "iogurtes"],
+        "marca": "Greco",
+        "avaliacoes": [
+          {
+            "nome": "Fernanda Lima",
+            "nota": 5.0,
+            "comentario": "Maravilhoso! Sabor intenso e muito cremoso.",
+            "data": "2024-02-14T10:25:18.618Z"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "titulo": "Água Mineral 1L",
+        "descricao": "Água mineral natural 1L, perfeita para hidratação diária.",
+        "img": "",
+        "nota": 4.3,
+        "preco": 2.20,
+        "desconto": 0.0,
+        "categorias": ["bebidas", "águas"],
+        "marca": "Águas da Serra",
+        "avaliacoes": [
+          {
+            "nome": "Carlos Martins",
+            "nota": 4.5,
+            "comentario": "Água muito boa, leve e refrescante.",
+            "data": "2024-02-10T09:35:42.618Z"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "titulo": "Sopa Instantânea 50g",
+        "descricao": "Sopa instantânea sabor galinha 50g, ideal para uma refeição rápida e saborosa.",
+        "img": "",
+        "nota": 4.1,
+        "preco": 2.80,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "congelados", "sopas"],
+        "marca": "Sopa Fácil",
+        "avaliacoes": [
+          {
+            "nome": "Larissa Silva",
+            "nota": 4.0,
+            "comentario": "Sopa boa para momentos corridos, mas o sabor poderia ser mais forte.",
+            "data": "2024-02-08T15:20:11.618Z"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "titulo": "Cerveja Heineken 330ml",
+        "descricao": "Cerveja Heineken 330ml, uma lager de sabor refrescante e leve.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 4.50,
+        "desconto": 0.05,
+        "categorias": ["bebidas", "cervejas"],
+        "marca": "Heineken",
+        "avaliacoes": [
+          {
+            "nome": "Eduardo Costa",
+            "nota": 5.0,
+            "comentario": "Excelente, sempre escolho Heineken pela qualidade.",
+            "data": "2024-02-09T12:50:45.618Z"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "titulo": "Papel Higiênico 12 Unidades",
+        "descricao": "Papel higiênico 12 unidades, de alta qualidade e maciez.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 10.90,
+        "desconto": 0.1,
+        "categorias": ["higiene", "papelaria"],
+        "marca": "Soft Plus",
+        "avaliacoes": [
+          {
+            "nome": "Juliana Pereira",
+            "nota": 5.0,
+            "comentario": "Muito macio e durável, ótima relação custo-benefício.",
+            "data": "2024-02-06T13:10:11.618Z"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "titulo": "Sabão em Barra 5kg",
+        "descricao": "Sabão em barra 5kg, ideal para lavagem de roupas e utensílios domésticos.",
+        "img": "",
+        "nota": 4.3,
+        "preco": 8.00,
+        "desconto": 0.05,
+        "categorias": ["limpeza", "higiene"],
+        "marca": "Brilhante",
+        "avaliacoes": [
+          {
+            "nome": "Paula Martins",
+            "nota": 4.5,
+            "comentario": "Cumpre bem sua função, ótimo para roupas mais pesadas.",
+            "data": "2024-02-05T10:30:44.618Z"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "titulo": "Desinfetante Lysoform 500ml",
+        "descricao": "Desinfetante Lysoform 500ml, perfeito para limpeza e desinfecção de superfícies.",
+        "img": "",
+        "nota": 4.8,
+        "preco": 7.50,
+        "desconto": 0.0,
+        "categorias": ["limpeza", "desinfetantes"],
+        "marca": "Lysoform",
+        "avaliacoes": [
+          {
+            "nome": "Gustavo Oliveira",
+            "nota": 5.0,
+            "comentario": "Muito eficiente e tem um cheiro maravilhoso.",
+            "data": "2024-02-07T16:15:50.618Z"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "titulo": "Lava-Roupas Líquido 1L",
+        "descricao": "Lava-roupas líquido 1L, ideal para lavar roupas delicadas e comuns.",
+        "img": "",
+        "nota": 4.4,
+        "preco": 5.20,
+        "desconto": 0.0,
+        "categorias": ["limpeza", "detergentes"],
+        "marca": "Brilhante",
+        "avaliacoes": [
+          {
+            "nome": "Rogério Souza",
+            "nota": 4.0,
+            "comentario": "Lava bem, mas o cheiro poderia ser mais suave.",
+            "data": "2024-02-04T11:40:11.618Z"
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "titulo": "Biscoito de Polvilho 400g",
+        "descricao": "Biscoito de polvilho 400g, crocante e saboroso, perfeito para lanches.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 3.80,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "biscoitos"],
+        "marca": "Polvilho Delícia",
+        "avaliacoes": [
+          {
+            "nome": "Cláudia Rocha",
+            "nota": 4.5,
+            "comentario": "Muito crocante e saboroso, perfeito para acompanhar o café.",
+            "data": "2024-02-01T10:00:30.618Z"
+          }
+        ]
+    },
+    {
+        "id": 26,
+        "titulo": "Farinha de Trigo 1kg",
+        "descricao": "Farinha de trigo 1kg, ideal para preparos de pães, bolos e outros assados.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 4.20,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "farinhas"],
+        "marca": "Grão Fino",
+        "avaliacoes": [
+          {
+            "nome": "Andréa Lima",
+            "nota": 5.0,
+            "comentario": "Excelente para fazer pães caseiros. Sempre compro!",
+            "data": "2024-02-13T12:10:23.618Z"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "titulo": "Tomate 1kg",
+        "descricao": "Tomates frescos e maduros, ideais para saladas ou molho caseiro.",
+        "img": "",
+        "nota": 4.3,
+        "preco": 6.50,
+        "desconto": 0.1,
+        "categorias": ["hortifruti", "vegetais"],
+        "marca": "Horta Verde",
+        "avaliacoes": [
+          {
+            "nome": "Carlos Henrique",
+            "nota": 4.0,
+            "comentario": "Bom, mas alguns tomates estavam um pouco verdes.",
+            "data": "2024-02-15T14:45:37.618Z"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "titulo": "Molho de Tomate 340g",
+        "descricao": "Molho de tomate 340g, ideal para massas, pizzas e diversas receitas.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 3.00,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "molhos"],
+        "marca": "Saboroso",
+        "avaliacoes": [
+          {
+            "nome": "Cláudia Rocha",
+            "nota": 4.5,
+            "comentario": "O sabor é bem intenso, adoro para minhas massas.",
+            "data": "2024-02-12T11:00:50.618Z"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "titulo": "Café Torrado 250g",
+        "descricao": "Café torrado e moído 250g, sabor forte e aroma irresistível.",
+        "img": "",
+        "nota": 4.7,
+        "preco": 8.50,
+        "desconto": 0.0,
+        "categorias": ["bebidas", "cafés"],
+        "marca": "Café Brasil",
+        "avaliacoes": [
+          {
+            "nome": "Eduardo Almeida",
+            "nota": 5.0,
+            "comentario": "Café excelente, muito saboroso e forte.",
+            "data": "2024-02-14T09:25:11.618Z"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "titulo": "Alho 200g",
+        "descricao": "Alho fresco 200g, utilizado para dar sabor e aroma a qualquer receita.",
+        "img": "",
+        "nota": 4.8,
+        "preco": 3.30,
+        "desconto": 0.0,
+        "categorias": ["hortifruti", "temperos"],
+        "marca": "Tempero Vivo",
+        "avaliacoes": [
+          {
+            "nome": "Fernanda Souza",
+            "nota": 5.0,
+            "comentario": "Alho de excelente qualidade, perfeito para temperar.",
+            "data": "2024-02-13T17:50:22.618Z"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "titulo": "Arroz Integral 1kg",
+        "descricao": "Arroz integral 1kg, rico em fibras e perfeito para uma alimentação saudável.",
+        "img": "",
+        "nota": 4.4,
+        "preco": 7.80,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "grãos"],
+        "marca": "Natural Life",
+        "avaliacoes": [
+          {
+            "nome": "Gabriela Dias",
+            "nota": 4.5,
+            "comentario": "Arroz integral com boa textura e sabor.",
+            "data": "2024-02-11T08:00:12.618Z"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "titulo": "Banana Prata 1kg",
+        "descricao": "Bananas prata frescas, ideais para consumo in natura ou em receitas.",
+        "img": "",
+        "nota": 4.2,
+        "preco": 5.00,
+        "desconto": 0.0,
+        "categorias": ["hortifruti", "frutas"],
+        "marca": "Frutal",
+        "avaliacoes": [
+          {
+            "nome": "Rogério Santos",
+            "nota": 4.0,
+            "comentario": "Bananas boas, mas algumas estavam um pouco verdes.",
+            "data": "2024-02-14T16:30:01.618Z"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "titulo": "Leite Condensado 395g",
+        "descricao": "Leite condensado 395g, cremoso e ideal para suas receitas de sobremesas.",
+        "img": "",
+        "nota": 4.9,
+        "preco": 4.00,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "laticínios"],
+        "marca": "Doce Vida",
+        "avaliacoes": [
+          {
+            "nome": "Luciana Martins",
+            "nota": 5.0,
+            "comentario": "O melhor leite condensado para fazer doces!",
+            "data": "2024-02-12T10:20:33.618Z"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "titulo": "Frango Congelado 1kg",
+        "descricao": "Frango congelado 1kg, pronto para ser preparado de diversas maneiras.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 15.90,
+        "desconto": 0.05,
+        "categorias": ["alimentos", "carnes"],
+        "marca": "Carne Nobre",
+        "avaliacoes": [
+          {
+            "nome": "Thiago Silva",
+            "nota": 4.5,
+            "comentario": "Bom produto, bem embalado e fácil de preparar.",
+            "data": "2024-02-13T14:40:55.618Z"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "titulo": "Feijão Carioca 1kg",
+        "descricao": "Feijão carioca 1kg, ideal para feijão tropeiro, arroz e feijão e outras receitas.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 7.00,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "grãos"],
+        "marca": "Feijão de Ouro",
+        "avaliacoes": [
+          {
+            "nome": "Patrícia Oliveira",
+            "nota": 4.5,
+            "comentario": "Muito bom, cozinhei e o feijão ficou macio e saboroso.",
+            "data": "2024-02-14T18:20:40.618Z"
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "titulo": "Molho de Soja 150ml",
+        "descricao": "Molho de soja 150ml, ideal para temperar e dar sabor aos seus pratos.",
+        "img": "",
+        "nota": 4.3,
+        "preco": 3.20,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "molhos"],
+        "marca": "Soya",
+        "avaliacoes": [
+          {
+            "nome": "Ricardo Lima",
+            "nota": 4.0,
+            "comentario": "Bom sabor, mas o molho poderia ser um pouco mais forte.",
+            "data": "2024-02-12T13:50:22.618Z"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "titulo": "Pão de Forma 400g",
+        "descricao": "Pão de forma 400g, macio e fresquinho, ideal para lanches e cafés da manhã.",
+        "img": "",
+        "nota": 4.7,
+        "preco": 5.50,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "pães"],
+        "marca": "Pão Real",
+        "avaliacoes": [
+          {
+            "nome": "Silvia Costa",
+            "nota": 5.0,
+            "comentario": "Muito macio e saboroso. Fica ótimo com manteiga.",
+            "data": "2024-02-10T15:30:50.618Z"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "titulo": "Biscoito de Maizena 400g",
+        "descricao": "Biscoito de maizena 400g, ideal para acompanhar um chá ou café.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 3.90,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "biscoitos"],
+        "marca": "Maizena",
+        "avaliacoes": [
+          {
+            "nome": "Jéssica Pereira",
+            "nota": 4.5,
+            "comentario": "Biscoito leve e crocante, perfeito para o lanche da tarde.",
+            "data": "2024-02-14T10:05:45.618Z"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "titulo": "Sabonete Lux 85g",
+        "descricao": "Sabonete Lux 85g, com fragrância floral e hidratação para a pele.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 2.80,
+        "desconto": 0.0,
+        "categorias": ["higiene", "sabores de banho"],
+        "marca": "Lux",
+        "avaliacoes": [
+          {
+            "nome": "Luciana Rocha",
+            "nota": 5.0,
+            "comentario": "Excelente fragrância e deixa a pele bem macia.",
+            "data": "2024-02-11T12:40:18.618Z"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "titulo": "Desodorante Dove 150ml",
+        "descricao": "Desodorante Dove 150ml, proteção contra odores e hidratação para a pele.",
+        "img": "",
+        "nota": 4.7,
+        "preco": 12.00,
+        "desconto": 0.0,
+        "categorias": ["higiene", "desodorantes"],
+        "marca": "Dove",
+        "avaliacoes": [
+          {
+            "nome": "Marta Silva",
+            "nota": 5.0,
+            "comentario": "Uso diário e adoro! Super eficaz.",
+            "data": "2024-02-14T13:15:20.618Z"
+          }
+        ]
+    },
+    {
+        "id": 41,
+        "titulo": "Cereal Matinal 300g",
+        "descricao": "Cereal matinal 300g, crocante e delicioso, ideal para o café da manhã.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 6.80,
+        "desconto": 0.1,
+        "categorias": ["alimentos", "cereais"],
+        "marca": "Crunchy",
+        "avaliacoes": [
+          {
+            "nome": "Mariana Alves",
+            "nota": 5.0,
+            "comentario": "Adoro esse cereal! Sabor ótimo e crocante.",
+            "data": "2024-02-15T16:20:30.618Z"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "titulo": "Iogurte Natural 170g",
+        "descricao": "Iogurte natural 170g, saudável e saboroso, sem conservantes.",
+        "img": "",
+        "nota": 4.8,
+        "preco": 3.50,
+        "desconto": 0.0,
+        "categorias": ["laticínios", "iogurtes"],
+        "marca": "Vital",
+        "avaliacoes": [
+          {
+            "nome": "Lucas Martins",
+            "nota": 5.0,
+            "comentario": "Sabor delicioso e super natural, perfeito para a dieta.",
+            "data": "2024-02-14T18:45:50.618Z"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "titulo": "Maçã Gala 1kg",
+        "descricao": "Maçã Gala fresca e crocante, ideal para lanches e sobremesas.",
+        "img": "",
+        "nota": 4.7,
+        "preco": 7.00,
+        "desconto": 0.0,
+        "categorias": ["hortifruti", "frutas"],
+        "marca": "Frutas da Serra",
+        "avaliacoes": [
+          {
+            "nome": "Sabrina Costa",
+            "nota": 4.5,
+            "comentario": "As maçãs estão ótimas, mas uma delas chegou um pouco machucada.",
+            "data": "2024-02-12T11:30:22.618Z"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "titulo": "Leite de Coco 200ml",
+        "descricao": "Leite de coco 200ml, perfeito para preparos de pratos e sobremesas.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 4.00,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "bebidas"],
+        "marca": "Coco Vida",
+        "avaliacoes": [
+          {
+            "nome": "Juliana Ribeiro",
+            "nota": 5.0,
+            "comentario": "Excelente leite de coco! Usamos em muitas receitas.",
+            "data": "2024-02-13T14:10:15.618Z"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "titulo": "Papel Higiênico 12 Unidades",
+        "descricao": "Papel higiênico macio e resistente, 12 unidades em cada pacote.",
+        "img": "",
+        "nota": 4.3,
+        "preco": 15.90,
+        "desconto": 0.0,
+        "categorias": ["higiene", "papel"],
+        "marca": "Soft",
+        "avaliacoes": [
+          {
+            "nome": "Fabiola Lima",
+            "nota": 4.0,
+            "comentario": "Bom, mas poderia ser um pouco mais macio.",
+            "data": "2024-02-11T17:35:43.618Z"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "titulo": "Desinfetante Floral 500ml",
+        "descricao": "Desinfetante floral 500ml, deixa o ambiente limpo e com um cheiro agradável.",
+        "img": "",
+        "nota": 4.7,
+        "preco": 8.00,
+        "desconto": 0.05,
+        "categorias": ["higiene", "limpeza"],
+        "marca": "Casa Limpa",
+        "avaliacoes": [
+          {
+            "nome": "Carla Pereira",
+            "nota": 5.0,
+            "comentario": "Cheiro maravilhoso e excelente para limpeza.",
+            "data": "2024-02-12T09:20:15.618Z"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "titulo": "Massa de Lasanha 500g",
+        "descricao": "Massa de lasanha 500g, fácil de preparar e ideal para receitas rápidas.",
+        "img": "",
+        "nota": 4.5,
+        "preco": 5.00,
+        "desconto": 0.0,
+        "categorias": ["alimentos", "massas"],
+        "marca": "Mamma Mia",
+        "avaliacoes": [
+          {
+            "nome": "Ricardo Santos",
+            "nota": 4.0,
+            "comentario": "Boa massa, mas precisa cozinhar um pouco mais do que as outras.",
+            "data": "2024-02-10T14:50:45.618Z"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "titulo": "Refrigerante Laranja 2L",
+        "descricao": "Refrigerante de laranja 2L, refrescante e saboroso para qualquer ocasião.",
+        "img": "",
+        "nota": 4.2,
+        "preco": 6.00,
+        "desconto": 0.0,
+        "categorias": ["bebidas", "refrigerantes"],
+        "marca": "Frescor",
+        "avaliacoes": [
+          {
+            "nome": "Pedro Oliveira",
+            "nota": 4.5,
+            "comentario": "Muito bom, com sabor suave e refrescante.",
+            "data": "2024-02-13T19:10:30.618Z"
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "titulo": "Sabão em Pó 1kg",
+        "descricao": "Sabão em pó 1kg, eficaz na limpeza e remoção de manchas.",
+        "img": "",
+        "nota": 4.4,
+        "preco": 7.50,
+        "desconto": 0.0,
+        "categorias": ["higiene", "limpeza"],
+        "marca": "Brilhante",
+        "avaliacoes": [
+          {
+            "nome": "Rafael Gomes",
+            "nota": 4.0,
+            "comentario": "Bom sabão, mas tem um cheiro muito forte.",
+            "data": "2024-02-14T15:25:43.618Z"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "titulo": "Detergente Líquido 500ml",
+        "descricao": "Detergente líquido 500ml, remove gordura com eficácia.",
+        "img": "",
+        "nota": 4.6,
+        "preco": 3.50,
+        "desconto": 0.0,
+        "categorias": ["higiene", "limpeza"],
+        "marca": "Eco Clean",
+        "avaliacoes": [
+          {
+            "nome": "Larissa Costa",
+            "nota": 5.0,
+            "comentario": "Excelente! Limpa muito bem e tem um aroma agradável.",
+            "data": "2024-02-12T10:40:23.618Z"
+          }
+        ]
+    }
+]
+}

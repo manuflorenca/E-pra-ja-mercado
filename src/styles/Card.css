@@ -1,0 +1,41 @@
+.card_produto{
+    border: 3px solid #bdbdbd;
+    width: 12em;
+    height: 15em;
+    border-radius: 2em 0 2em 0;
+    overflow: hidden;
+}
+
+.img_produto{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+
+.info_produto{
+    height: 45%;
+    width: 100%;
+}
+
+.info_produto h5{
+    font-size: 1rem;
+}
+
+.card_btn{
+    border: none;
+    border-radius: .4em;
+}
+
+.btn_carrinho{
+    background-color: green;
+}
+
+.btn_favorito{
+    background-color: red;
+}
+
+.card_btn img{
+    width: 1rem;
+    height: 1rem;
+    filter: invert(100%) brightness(100%) contrast(100%);
+}
