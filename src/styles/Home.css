@@ -1,0 +1,4 @@
+.produtos_container{
+    width: calc((13em + 3px) * 50);
+    gap: 1em;
+}
