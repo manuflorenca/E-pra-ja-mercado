@@ -1,3 +1,7 @@
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
 .categorias {
     display: flex;
     justify-content: space-between; /* Espaçamento entre os itens */
@@ -40,31 +44,51 @@ form {
   }
   
   .BtnPesquisa {
-    width: 1.5625rem;
-    height: 1.5625rem;
-  }
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
 
-  .navbar-nav {
+.navbar-nav {
     display: flex;
-    justify-content: right;
-    margin-left: 20em;
-    width: 60%;
-  }
+    margin-left: auto; /* Espaço automático à esquerda */
+}
 
 .IconsNav {
-    width: 2.5rem;
-    height: 2.5rem;
-    filter: invert(71%) sepia(50%) saturate(863%) hue-rotate(326deg) brightness(96%) contrast(97%);
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem; /* Espaçamento entre ícones e texto */
+    filter: invert(71%) sepia(50%) saturate(863%) hue-rotate(326deg) brightness(96%) contrast(97%); /* Filtro para os ícones */
 }
 
 .nav-link {
-    color: #F29544 ;
+    color: #F29544; 
+    padding: 0.5rem 1rem; /* Espaçamento interno dos links */
+    transition: color 0.3s; 
+}
+
+.nav-link:hover {
+    color: #d68a2e; /* Cor do texto ao passar o mouse */
 }
 
 /* Parte inferior da nav */
 
-.dropdown{
-    border-radius: 0.3125rem;
-    background: #687343;
-    color: #FAFAFAFA;
+/* Estilos para o Dropdown */
+.dropdown {
+    border-radius: 0.3125rem; 
+    background: #687343; 
+    color: #FAFAFA; 
+    position: relative;
 }
+
+.dropdown-toggle {
+    color: #FAFAFA;
+    background: transparent; 
+    padding: 0.5rem 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
