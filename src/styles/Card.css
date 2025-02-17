@@ -19,6 +19,9 @@
 
 .info_produto h5{
     font-size: 1rem;
+    min-height: 2.2rem;
+    line-height: 1rem;
+    overflow: hidden;
 }
 
 .card_btn{
@@ -27,11 +30,11 @@
 }
 
 .btn_carrinho{
-    background-color: green;
+    background-color: var(--color-primary);
 }
 
 .btn_favorito{
-    background-color: red;
+    background-color: var(--color-secundary);
 }
 
 .card_btn img{
