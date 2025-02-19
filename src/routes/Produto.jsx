@@ -1,9 +1,6 @@
-import Button from "../components/Button"
-import Heart from "../assets/heart.svg"
-import Cart from "../assets/shopping-cart.svg"
-import Bag from "../assets/bag-fill.svg"
-import ImgTeste from "../assets/morango.png"
 import "../styles/Produto.css"
+import { Heart, ShoppingCart, Bag, ImgTeste } from "../utils/Icons"
+import Button from "../components/Button"
 
 const Produto = () => {
   return (
@@ -14,11 +11,11 @@ const Produto = () => {
       <div className="div-product">
         <h1>Morango</h1>
         <div>
-          <i class="bi bi-star-fill"></i>
-          <i class="bi bi-star-fill"></i>
-          <i class="bi bi-star-half"></i>
-          <i class="bi bi-star"></i>
-          <i class="bi bi-star"></i>
+          <i className="bi bi-star-fill"></i>
+          <i className="bi bi-star-fill"></i>
+          <i className="bi bi-star-half"></i>
+          <i className="bi bi-star"></i>
+          <i className="bi bi-star"></i>
         </div>
         <p className="p-price">R$ 10,00</p>
         <p className="p-product">
@@ -29,7 +26,7 @@ const Produto = () => {
           delicado e refrescante o torna um ingrediente indispensável na culinária. Seja mergulhado no chocolate, batido no leite ou como toque especial em uma salada, o morango é sempre uma escolha deliciosa e nutritiva. </p>
         <div className="div-buttons">    
           <Button color={"color-red"} icon={Heart} text={"Favoritar"}/>
-          <Button color={"color-green"} icon={Cart} text={"Add ao carrinho"}/>
+          <Button color={"color-green"} icon={ShoppingCart} text={"Add ao carrinho"}/>
           <Button color={"color-lightgreen"} icon={Bag} text={"Comprar agora"}/>
         </div> 
       </div>
