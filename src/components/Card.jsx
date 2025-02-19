@@ -1,6 +1,5 @@
 import '../styles/Card.css'
-import ShoppingCart from '../assets/shopping-cart.svg'
-import Heart from '../assets/heart.svg'
+import { ShoppingCart, Heart } from '../utils/Icons'
 
 export default function Card({titulo, nota, preco}) {
   return (
@@ -13,11 +12,11 @@ export default function Card({titulo, nota, preco}) {
             <div className="row">
                 <div className="col-7 d-flex flex-column justify-content-between">
                     <div>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-half"></i>
-                        <i class="bi bi-star"></i>
-                        <i class="bi bi-star"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-half"></i>
+                        <i className="bi bi-star"></i>
+                        <i className="bi bi-star"></i>
                     </div>
                     <p className='m-0'>R$ {preco}</p>
                 </div>

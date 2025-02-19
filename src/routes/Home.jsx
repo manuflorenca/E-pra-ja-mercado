@@ -1,9 +1,8 @@
-import React from 'react'
-import Card from '../components/Card'
-import {products} from '../data/products.json'
 import '../styles/Home.css'
-import Banner from '../components/Banner'
 import { Link } from 'react-router-dom'
+import {products} from '../data/products.json'
+import Banner from '../components/Banner'
+import Card from '../components/Card'
 
 function Home() {
   return (

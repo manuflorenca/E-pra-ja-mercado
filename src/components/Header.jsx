@@ -1,9 +1,5 @@
-import React from 'react';
-import ShoppingCart from '../assets/shopping-cart.svg';
-import Search from '../assets/search.svg';
-import Heart from '../assets/heart.svg';
-import User from '../assets/user.svg';
 import '../styles/Header.css';
+import {ShoppingCart, Search, Heart, User} from '../utils/Icons';
 
 const SearchBar = () => (
   <form className="d-flex" role="search">
