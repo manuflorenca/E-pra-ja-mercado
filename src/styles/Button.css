@@ -1,0 +1,42 @@
+.Btn-acao{
+    display: flex;
+    width: 28.9375rem;
+    height: 3.8125rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: #FFF;
+    text-align: center;
+    font-family: "Encode Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.color-red{
+    background-color: var(--color-secundary);
+}
+
+.color-green{
+    background-color: var(--color-primary) ;
+    
+}
+
+.color-lightgreen{
+    background-color: var(--color-lightgreen);
+    
+}
+
+.Icon-btn{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(170deg) brightness(98%) contrast(100%);
+    margin: 0 2em;
+}

@@ -1,0 +1,37 @@
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-product{
+    margin-right: 10em;
+}
+
+.div-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-price{
+    color: var(--color-primary);
+    font-family: "Encode Sans";
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.p-product{
+    width: 28.25rem;
+}
