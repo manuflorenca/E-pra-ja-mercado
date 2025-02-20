@@ -1,0 +1,16 @@
+.User-section{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1.5em;
+}
+
+.User-icon-comment{
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+}
+
+.User-name{
+    font-weight: 500;
+}
+

@@ -3,3 +3,9 @@
     --color-secundary: #8C331F;
     --color-lightgreen: #687343CC;
 }
+
+.bi-star-fill,
+.bi-star-half,
+.bi-star{
+    filter: invert(65%) sepia(85%) saturate(315%) hue-rotate(349deg) brightness(98%) contrast(92%);
+}

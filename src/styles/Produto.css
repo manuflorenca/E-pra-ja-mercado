@@ -35,3 +35,11 @@ main{
 .p-product{
     width: 28.25rem;
 }
+
+.title-products{
+    color: #101212;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

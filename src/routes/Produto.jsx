@@ -1,12 +1,16 @@
-import "../styles/Produto.css"
-import { Heart, ShoppingCart, Bag, ImgTeste } from "../utils/Icons"
-import Button from "../components/Button"
+import "../styles/Produto.css";
+import { Heart, ShoppingCart, Bag, ImgTeste } from "../utils/Icons";
+import Button from "../components/Button";
+import Comment from "../components/Comment";
+import {products} from '../data/products.json'
+import { Link } from 'react-router-dom';
+import Card from '../components/Card';
 
 const Produto = () => {
   return (
 
-    <main>
-      <section className="section-product">
+    <main className="row">
+      <section className="section-product col-12">
       <img className="img-product" src={ImgTeste} alt="" /> 
       <div className="div-product">
         <h1>Morango</h1>
@@ -30,6 +34,33 @@ const Produto = () => {
           <Button color={"color-lightgreen"} icon={Bag} text={"Comprar agora"}/>
         </div> 
       </div>
+      </section>
+      <section className="section-review col-5 p-5">
+        <h2 className="title-products">Avaliações</h2>
+        <Comment
+         username={products[1].avaliacoes[0].nome}
+         comment={products[1].avaliacoes[0].comentario}/>
+        <Comment
+                 username={products[1].avaliacoes[1].nome}
+                 comment={products[1].avaliacoes[1].comentario}/>
+      </section>
+      <section className="section-cards col-7 p-5">
+
+        <h2 className="title-products">Relacionados</h2>
+        <div className="container text-center">
+          <div className="row row-cols-2">
+            {products.slice(0, 4).map((product) => (
+              <div key={product.id} className="col">
+                <div className="card_produto">
+                  <Link to={`/produto/${product.id}`}>
+                    <Card titulo={product.titulo} preco={product.preco} />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </section>
     </main>
 

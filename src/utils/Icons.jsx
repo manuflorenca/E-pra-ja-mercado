@@ -4,6 +4,7 @@ import Heart from '../assets/heart.svg';
 import User from '../assets/user.svg';
 import Bag from "../assets/bag-fill.svg";
 import ImgTeste from "../assets/morango.png";
+import CommentUser from "../assets/person-circle.svg";
 
 export {
     Bag,
@@ -11,5 +12,6 @@ export {
     ImgTeste,
     Search,
     ShoppingCart,
-    User
+    User,
+    CommentUser
 }
