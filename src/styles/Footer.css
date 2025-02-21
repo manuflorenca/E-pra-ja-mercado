@@ -1,0 +1,5 @@
+.Footer{
+    margin-top: 3em;
+    background-color: var(--color-secundary);
+    color:var(--color-white);
+}

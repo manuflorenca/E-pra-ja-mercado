@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import {products} from '../data/products.json'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
           ))}
         </section>
       </section>
+      <Footer/>
     </>
   )
 }
