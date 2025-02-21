@@ -12,7 +12,7 @@ const Produto = () => {
     <main className="row">
       <section className="section-product col-12">
       <img className="img-product" src={ImgTeste} alt="" /> 
-      <div className="div-product">
+      <div className="div-product mt-lg-4">
         <h1>Morango</h1>
         <div>
           <i className="bi bi-star-fill"></i>
@@ -35,7 +35,7 @@ const Produto = () => {
         </div> 
       </div>
       </section>
-      <section className="section-review col-5 p-5">
+      <section className="section-review col-lg-5 col p-5">
         <h2 className="title-products">Avaliações</h2>
         <Comment
          username={products[1].avaliacoes[0].nome}
@@ -44,7 +44,7 @@ const Produto = () => {
                  username={products[1].avaliacoes[1].nome}
                  comment={products[1].avaliacoes[1].comentario}/>
       </section>
-      <section className="section-cards col-7 p-5">
+      <section className="section-cards col-lg-7 p-5">
 
         <h2 className="title-products">Relacionados</h2>
         <div className="container text-center">
