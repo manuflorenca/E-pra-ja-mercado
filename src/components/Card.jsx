@@ -18,7 +18,7 @@ export default function Card({titulo, nota, preco}) {
                         <i className="bi bi-star"></i>
                         <i className="bi bi-star"></i>
                     </div>
-                    <p className='m-0'>R$ {preco}</p>
+                    <p className='m-0 info_preco'>R$ {preco}</p>
                 </div>
                 <div className="col-3 px-0 align-self-end d-flex justify-content-around">
                     <button className='card_btn btn_carrinho d-flex align-items-center py-1 me-2'><img src={ShoppingCart} alt="" /></button>

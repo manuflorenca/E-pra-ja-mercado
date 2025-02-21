@@ -35,33 +35,34 @@ const Produto = () => {
         </div> 
       </div>
       </section>
-      <section className="section-review col-lg-5 col p-5">
-        <h2 className="title-products">Avaliações</h2>
-        <Comment
-         username={products[1].avaliacoes[0].nome}
-         comment={products[1].avaliacoes[0].comentario}/>
-        <Comment
-                 username={products[1].avaliacoes[1].nome}
-                 comment={products[1].avaliacoes[1].comentario}/>
-      </section>
-      <section className="section-cards col-lg-7 p-5">
-
-        <h2 className="title-products">Relacionados</h2>
-        <div className="container text-center">
-          <div className="row row-cols-2">
-            {products.slice(0, 4).map((product) => (
-              <div key={product.id} className="col">
-                <div className="card_produto">
-                  <Link to={`/produto/${product.id}`}>
-                    <Card titulo={product.titulo} preco={product.preco} />
-                  </Link>
+      <div className="col-12 row d-flex justify-content-center column-gap-5">
+        <section className="section-review col-lg-5 col p-5">
+          <h2 className="title-products">Avaliações</h2>
+          <Comment
+          username={products[1].avaliacoes[0].nome}
+          comment={products[1].avaliacoes[0].comentario}/>
+          <Comment
+                  username={products[1].avaliacoes[1].nome}
+                  comment={products[1].avaliacoes[1].comentario}/>
+        </section>
+        
+        <section className="section-cards col-lg-4 p-5">
+          <h2 className="title-products">Relacionados</h2>
+          <div className="container">
+            <div className="row row-cols-2 gap-0 row-gap-4 relacionados_container">
+              {products.slice(0, 4).map((product) => (
+                <div key={product.id} className="col">
+                  <div className="card_produto">
+                    <Link to={`/produto/${product.id}`}>
+                      <Card titulo={product.titulo} preco={product.preco} />
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-
-      </section>
+        </section>
+      </div>
     </main>
 
 
