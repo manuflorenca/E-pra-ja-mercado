@@ -3,6 +3,11 @@
     --color-secundary: #8C331F;
     --color-lightgreen: #687343CC;
     --color-white: #fafafa;
+    --color-black: #101212;
+}
+
+a {
+    text-decoration: none;
 }
 
 .bi-star-fill,
