@@ -52,9 +52,13 @@ export default function App() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2025 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
-            É pra já
+        © 2025 Copyright: {' '}
+        <a className='text-white' href='https://github.com/manuflorenca'>
+            ManuFlorenca
+        </a>
+        {' '} e {' '}
+        <a className='text-white' href='https://github.com/GabrielFRCordeiro'>
+            GabrielFRCordeiro
         </a>
       </div>
     </MDBFooter>
