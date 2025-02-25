@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Provider } from 'react-redux'
 import './index.css'
 import App from './App.jsx'
 import Home from './routes/Home.jsx'
@@ -13,6 +14,7 @@ import Carrinho from './routes/Carrinho.jsx'
 import Perfil from './routes/Perfil.jsx'
 import Login from './routes/Login.jsx'
 import Cadastro from './routes/Cadastro.jsx'
+import store from './redux/store.js'
 
 const router = createBrowserRouter([
   {
@@ -50,6 +52,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </StrictMode>,
 )
