@@ -1,0 +1,35 @@
+main{
+    height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 37.5rem;
+    justify-content: center;
+    height: 100%;
+}
+
+h1{
+    color: var(--color-secundary);
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 37.5rem;
+}
+
+.LinkLogin{
+    color: var(--color-secundary);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,11 +1,13 @@
-import "../styles/inputForm.css";
+import "../styles/InputForm.css";
 
-const inputForm = () => {
+const InputForm = ({icon,type,placeholder}) => {
+
   return (
-    <div>
-        <input type="text" className="Input-Name" placeholder={placeholder}/>
-    </div>
+    <label>
+        <img className="Icon-img" src={icon} alt="" />
+        <input type={type} className="Input-Name" placeholder={placeholder}/>
+    </label>
   )
 }
 
-export default inputForm
+export default InputForm

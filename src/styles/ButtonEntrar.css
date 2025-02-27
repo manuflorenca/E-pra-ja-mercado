@@ -11,3 +11,7 @@
 .color-btn-gradient-red{
     background: var(--color-btn-gradient-red);
 }
+
+.color-btn-gradient-red:hover{
+    background: linear-gradient(90deg, #923521 5%, #B0402A 100%);
+}

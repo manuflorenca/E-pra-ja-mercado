@@ -1,0 +1,31 @@
+label{
+    position: relative;
+}
+
+.Icon-img{
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    top:50%;
+    transform: translateY(-50%) ;
+    filter: invert(16%) sepia(28%) saturate(2761%) hue-rotate(4deg) brightness(88%) contrast(91%); 
+    margin-left: 1em;
+}
+
+.Input-Name{
+    width: 37.5rem;
+    height: 5rem;
+    border-radius: 0.3125rem;
+    background: var(--colot-white);
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.Input-Name::placeholder{
+    color: var(--color-secundary);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 4em;
+}

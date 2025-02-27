@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import {ShoppingCart, Search, Heart, User} from '../utils/Icons';
 
@@ -19,9 +20,11 @@ const SearchBar = () => (
 
 const NavItem = ({ icon, text, href }) => (
   <li className="nav-item">
-    <a className="nav-link" href={href}>
-      <img className="IconsNav" src={icon} alt={text} /> {text}
-    </a>
+      <Link to={href}>
+      <span className="nav-link">
+        <img className="IconsNav" src={icon} alt={text} /> {text}
+      </span>
+    </Link>
   </li>
 );
 
@@ -59,7 +62,7 @@ const Header = () => {
             <ul className="navbar-nav">
               <NavItem icon={Heart} text="Favoritos" href="#" />
               <NavItem icon={ShoppingCart} text="Carrinho" href="#" />
-              <NavItem icon={User } text="Conta" href="#" />
+              <NavItem icon={User } text="Conta" href="/login" />
             </ul>
           </div>
         </div>
