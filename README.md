@@ -2,6 +2,7 @@
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-2B579A?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)
 ![React](https://img.shields.io/badge/react-59D2F7?style=for-the-badge&logo=react&logoColor=white)
 ![BootStrap](https://img.shields.io/badge/BootStrap-7811F1?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-7649BB?style=for-the-badge&logo=redux&logoColor=white)
 
 > Projeto simulando um site de mercado com API, React e NodeJS
 
