@@ -29,9 +29,9 @@ const Produto = () => {
           Além de ser consumido in natura, essa fruta versátil pode ser usada em sobremesas, geleias, sucos, bolos e até pratos salgados. Seu aroma
           delicado e refrescante o torna um ingrediente indispensável na culinária. Seja mergulhado no chocolate, batido no leite ou como toque especial em uma salada, o morango é sempre uma escolha deliciosa e nutritiva. </p>
         <div className="div-buttons">    
-          <Button color={"color-red"} icon={Heart} text={"Favoritar"}/>
-          <Button color={"color-green"} icon={ShoppingCart} text={"Add ao carrinho"}/>
-          <Button color={"color-lightgreen"} icon={Bag} text={"Comprar agora"}/>
+          <Button color={"color-red"} type={"Button"} icon={Heart} text={"Favoritar"}/>
+          <Button color={"color-green"} type={"Button"} icon={ShoppingCart} text={"Add ao carrinho"}/>
+          <Button color={"color-lightgreen"} type={"Button"} icon={Bag} text={"Comprar agora"}/>
         </div> 
       </div>
       </section>

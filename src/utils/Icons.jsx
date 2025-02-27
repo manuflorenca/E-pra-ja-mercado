@@ -5,6 +5,7 @@ import User from '../assets/user.svg';
 import Bag from "../assets/bag-fill.svg";
 import ImgTeste from "../assets/morango.png";
 import CommentUser from "../assets/person-circle.svg";
+import photoLogin from "../assets/fotoLogin.png";
 
 export {
     Bag,
@@ -13,5 +14,6 @@ export {
     Search,
     ShoppingCart,
     User,
-    CommentUser
+    CommentUser,
+    photoLogin
 }

@@ -4,6 +4,7 @@
     --color-lightgreen: #687343CC;
     --color-white: #fafafa;
     --color-black: #101212;
+    --color-btn-gradient-red: linear-gradient(90deg, #B0402A 10.5%, #8C331F 61%);
 }
 
 a {

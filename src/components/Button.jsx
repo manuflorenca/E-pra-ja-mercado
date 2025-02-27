@@ -1,8 +1,8 @@
 import "../styles/Button.css";
 
-const Button = ({ icon, text, color }) => {
+const Button = ({ icon, text, color, type }) => {
     return (
-      <button className={`Btn-acao ${color}`}> <img className='Icon-btn' src={icon} alt="" /> {text}</button>
+      <button className={`Btn-acao ${color}`} type={type}> <img className='Icon-btn' src={icon} alt="" /> {text}</button>
     );
   };
   

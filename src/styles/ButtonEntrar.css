@@ -1,0 +1,13 @@
+.Btn-entrar{
+    width: 15.625rem;
+    height: 5rem;
+    flex-shrink: 0;
+    border: none;
+    color: var(--color-white);
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.color-btn-gradient-red{
+    background: var(--color-btn-gradient-red);
+}
