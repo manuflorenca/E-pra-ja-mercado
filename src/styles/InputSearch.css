@@ -1,0 +1,38 @@
+.input-group {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.Pesquisa {
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  border: 2px solid #C1C1C1;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input-group.expandido .Pesquisa {
+  flex-shrink: 0;
+  width: 200px; /* Tamanho fixo do input expandido */
+  opacity: 1;
+}
+
+/* No mobile, o input começa oculto */
+@media (max-width: 768px) {
+  .input-group {
+    flex-wrap: nowrap; /* Evita que o botão quebre de linha */
+    gap: 8px; /* Adiciona espaçamento entre a lupa e a barra */
+  }
+
+  .Pesquisa {
+    display: none; /* Esconde no início */
+  }
+
+  .input-group.expandido .Pesquisa {
+    display: block;
+    margin-left: 2.5rem;
+    width: 400px; /* Ajuste conforme necessário */
+  }
+}

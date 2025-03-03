@@ -1,20 +1,11 @@
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import {ShoppingCart, Search, Heart, User} from '../utils/Icons';
+import InputSearch from "../components/inputSearch";
 
 const SearchBar = () => (
   <form className="d-flex" role="search">
-    <div className="input-group">
-      <input
-        className="Pesquisa form-control"
-        type="search"
-        placeholder="Pesquisar produtos"
-        aria-label="Search"
-      />
-      <button className="btn btn-outline-success" type="submit">
-        <img className="BtnPesquisa" src={Search} alt="Pesquisar" />
-      </button>
-    </div>
+    <InputSearch/>
   </form>
 );
 
@@ -29,7 +20,7 @@ const NavItem = ({ icon, text, href }) => (
 );
 
 const Dropdown = () => (
-  <div className="dropdown">
+  <div className="dropdown mb-3">
     <a
       className="btn dropdown-toggle"
       href="#"
@@ -54,8 +45,8 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src={ShoppingCart} className="logo" alt="Logo" />
+          <a className="navbar-brand d-none d-md-flex" href="#">
+            <img src={ShoppingCart} className="logo " alt="Logo" />
           </a>
           <SearchBar />
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -70,7 +61,7 @@ const Header = () => {
 
       <div className="categorias">
         <Dropdown />
-        <nav className="navCategorias">
+        <nav className="navCategorias d-none d-md-flex">
           {['Frutas', 'Bebidas', 'Higiene', 'Temperos', 'Laticínios', 'Açougue'].map((categoria) => (
             <a className="nav-link" href="#" key={categoria}>{categoria}</a>
           ))}

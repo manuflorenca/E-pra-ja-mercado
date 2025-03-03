@@ -92,3 +92,16 @@ form {
     transition: background-color 0.3s;
 }
 
+@media (max-width: 768px) {
+  .dropdown {
+      width: 80%; /* Ajuste o tamanho conforme necessário */
+      max-width: 350px; 
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+  }
+
+}
+
+
